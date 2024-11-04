@@ -1,0 +1,31 @@
+@import "normalize.css";
+
+.text-image-section {
+    display: flex;
+    align-items: flex-start; /* Выравнивание текста и изображений по верхнему краю */
+}
+
+.text {
+    flex: 1;
+    padding-right: 1rem; /* Отступ справа для текста */
+}
+
+.text p {
+    margin-bottom: 1.5rem; /* Добавляем отступ снизу для абзацев */
+}
+
+.text p.separated {
+    margin-bottom: 2rem; /* Увеличиваем отступ для второго абзаца */
+}
+
+.centered-image {
+    display: block; /* Делаем изображение блочным элементом */
+    margin: 0 auto; /* Центрируем изображение */
+    max-width: 80%; /* Ограничиваем ширину изображения */
+    height: auto; /* Сохраняем пропорции изображения */
+    margin-bottom: 1rem; /* Отступ снизу для разделения с текстом */
+}
+
+nav a.home-button {
+    font-size: 1.2rem; 
+}

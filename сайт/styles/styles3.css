@@ -1,0 +1,17 @@
+@import "normalize.css";
+
+.text-image-section {
+    display: flex;
+    flex-direction: column; 
+}
+
+.technology-item {
+    margin-bottom: 2rem; 
+    text-align: center; 
+}
+
+.technology-item img {
+    max-width: 100%; 
+    height: auto;
+    margin-bottom: 0.5rem; 
+}

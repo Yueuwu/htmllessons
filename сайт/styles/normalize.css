@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #9ACEEB;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+nav li {
+    background-color: #1A4780;
+    padding: 10px;
+    text-align: center;
+    width: 100px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #1A4780;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+nav a:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+nav a.home-button {
+    font-size: 1.2rem;
+    background-color: #1A4780;
+}
+
+main {
+    padding: 2rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto; /* Центрирование основного содержимого */
+}
+
+main p {
+    font-size: 2.125rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+footer {
+    background-color: #9ACEEB;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
